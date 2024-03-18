@@ -11,7 +11,11 @@ module.exports = {
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        figtree: ["Figtree", "Arial", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 };
