@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
-    "declaration": false,
+    "composite": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -22,7 +22,7 @@
     "types": ["vite/client", "vitest"]
   },
   "files": [],
-  "include": [],
+  "include": ["vite.config.ts"],
   "references": [
     {
       "path": "./tsconfig.app.json"

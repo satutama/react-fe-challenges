@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
