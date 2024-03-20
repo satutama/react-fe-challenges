@@ -23,6 +23,10 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
+        path: "/",
+        element: <TicTacToe />,
+      },
+      {
         path: "tic-tac-toe",
         element: <TicTacToe/>,
       },
